@@ -31,7 +31,7 @@ local icons_by_filename = {
     name = "Eslintrc",
   },
   [".gitattributes"] = {
-    icon = "",
+    icon = "󰊢",
     color = "#41535b",
     cterm_color = "239",
     name = "GitAttributes",
@@ -43,8 +43,8 @@ local icons_by_filename = {
     name = "GitConfig",
   },
   [".gitignore"] = {
-    icon = "",
-    color = "#41535b",
+    icon = "󰊢", -- 󰊢 
+    color = "#cd0000",
     cterm_color = "239",
     name = "GitIgnore",
   },
@@ -55,7 +55,7 @@ local icons_by_filename = {
     name = "GitlabCI",
   },
   [".gitmodules"] = {
-    icon = "",
+    icon = "󰊢",
     color = "#41535b",
     cterm_color = "239",
     name = "GitModules",
@@ -121,7 +121,7 @@ local icons_by_filename = {
     name = "CMakeLists",
   },
   ["commit_editmsg"] = {
-    icon = "",
+    icon = "󰊢",
     color = "#41535b",
     cterm_color = "239",
     name = "GitCommit",
@@ -686,7 +686,7 @@ local icons_by_file_extension = {
     name = "Gif",
   },
   ["git"] = {
-    icon = "",
+    icon = "󰊢",
     color = "#F14C28",
     cterm_color = "196",
     name = "GitLogo",
@@ -954,6 +954,18 @@ local icons_by_file_extension = {
     color = "#519aba",
     cterm_color = "74",
     name = "Markdown",
+  },
+  ["terraform"] = {
+    icon = "󱁢",
+    color = "#519aba",
+    cterm_color = "74",
+    name = "Terraform",
+  },
+  ["vimwiki"] = {
+    icon = "", -- 󱓷   荒
+    color = "#519aba",
+    cterm_color = "74",
+    name = "Vimwiki",
   },
   ["material"] = {
     icon = "󰔉",
@@ -1711,6 +1723,7 @@ local filetypes = {
   ["lua"] = "lua",
   ["make"] = "makefile",
   ["markdown"] = "markdown",
+  ["terraform"] = "terraform",
   ["material"] = "material",
   ["mdx"] = "mdx",
   ["mint"] = "mint",
@@ -1722,6 +1735,7 @@ local filetypes = {
   ["ocaml"] = "ml",
   ["opus"] = "opus",
   ["otf"] = "otf",
+  ["vimwiki"] = "vimwiki",
   ["pck"] = "pck",
   ["pdf"] = "pdf",
   ["perl"] = "pl",
