@@ -961,6 +961,12 @@ local icons_by_file_extension = {
     cterm_color = "74",
     name = "Terraform",
   },
+  ["pub"] = {
+    icon = "󱕵",
+    color = "#519aba",
+    cterm_color = "74",
+    name = "Pub",
+  },
   ["vimwiki"] = {
     icon = "", -- 󱓷   荒
     color = "#519aba",
@@ -1724,6 +1730,7 @@ local filetypes = {
   ["make"] = "makefile",
   ["markdown"] = "markdown",
   ["terraform"] = "terraform",
+  ["pub"] = "pub",
   ["material"] = "material",
   ["mdx"] = "mdx",
   ["mint"] = "mint",
