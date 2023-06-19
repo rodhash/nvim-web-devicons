@@ -1592,7 +1592,7 @@ local icons_by_file_extension = {
   },
   ["lock"] = {
     icon = "",
-    color = "#bbbbbb",
+    color = "#ff0000",
     cterm_color = "250",
     name = "Lock",
   },
