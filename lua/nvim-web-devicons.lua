@@ -304,6 +304,24 @@ local icons_by_filename = {
     cterm_color = "185",
     name = "License",
   },
+  ["config"] = {
+    icon = "",
+    color = "#745511",
+    cterm_color = "185",
+    name = "Config",
+  },
+  ["env"] = {
+    icon = "",
+    color = "#745511",
+    cterm_color = "185",
+    name = "Config",
+  },
+  ["credentials"] = {
+    icon = "󱕵",
+    color = "#ff00ff",
+    cterm_color = "185",
+    name = "credentials",
+  },
 }
 
 -- fuzzy match by extension
@@ -1619,6 +1637,18 @@ local icons_by_file_extension = {
     color = "#878700",
     cterm_color = "106",
     name = "Backup",
+  },
+  ["bkp"] = {
+    icon = "󱙌",
+    color = "#879000",
+    cterm_color = "106",
+    name = "Bkp",
+  },
+  ["bak"] = {
+    icon = "󱙌",
+    color = "#878700",
+    cterm_color = "106",
+    name = "Bak",
   },
   ["hcl"] = {
     icon = "󱁢",
