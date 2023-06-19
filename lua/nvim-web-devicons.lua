@@ -1387,13 +1387,13 @@ local icons_by_file_extension = {
     name = "Tex",
   },
   ["tf"] = {
-    icon = "",
+    icon = "󱁢",
     color = "#5F43E9",
     cterm_color = "93",
     name = "Terraform",
   },
   ["tfvars"] = {
-    icon = "",
+    icon = "󱁢",
     color = "#5F43E9",
     cterm_color = "93",
     name = "TFVars",
@@ -1591,7 +1591,7 @@ local icons_by_file_extension = {
     name = "Prisma",
   },
   ["lock"] = {
-    icon = "",
+    icon = "",
     color = "#bbbbbb",
     cterm_color = "250",
     name = "Lock",
@@ -1613,6 +1613,18 @@ local icons_by_file_extension = {
     color = "#95BF47",
     cterm_color = "106",
     name = "Liquid",
+  },
+  ["backup"] = {
+    icon = "󱙌",
+    color = "#878700",
+    cterm_color = "106",
+    name = "Backup",
+  },
+  ["hcl"] = {
+    icon = "󱁢",
+    color = "#745511",
+    cterm_color = "106",
+    name = "Hcl",
   },
 }
 
