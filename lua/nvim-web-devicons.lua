@@ -991,6 +991,12 @@ local icons_by_file_extension = {
     cterm_color = "74",
     name = "Vimwiki",
   },
+  ["norg"] = {
+    icon = "󰝇",
+    color = "#519aba",
+    cterm_color = "74",
+    name = "Norg",
+  },
   ["material"] = {
     icon = "󰔉",
     color = "#B83998",
@@ -1785,6 +1791,7 @@ local filetypes = {
   ["opus"] = "opus",
   ["otf"] = "otf",
   ["vimwiki"] = "vimwiki",
+  ["norg"] = "norg",
   ["pck"] = "pck",
   ["pdf"] = "pdf",
   ["perl"] = "pl",
