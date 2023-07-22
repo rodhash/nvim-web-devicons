@@ -992,7 +992,7 @@ local icons_by_file_extension = {
     name = "Vimwiki",
   },
   ["norg"] = {
-    icon = "󰝇",
+    icon = "ﱅ",
     color = "#519aba",
     cterm_color = "74",
     name = "Norg",
